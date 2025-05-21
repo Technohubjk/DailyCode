@@ -102,7 +102,7 @@ namespace ConsoleApp1
                 int mid = left + (Right - left) / 2;
                 if (arr[mid] ==target)
                 {
-                    Console.WriteLine("Goted..."+arr);
+                    Console.WriteLine($"Goted...{mid}");
                     return;
                 }
                 if (arr[mid] < target)
@@ -115,7 +115,7 @@ namespace ConsoleApp1
                 }
                
             }
-            Console.WriteLine("Not Founded the target");
+            Console.WriteLine("Not Founded the target Value");
         }
     }
 }
