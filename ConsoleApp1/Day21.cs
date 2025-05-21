@@ -30,5 +30,26 @@ namespace ConsoleApp1
 
             }
         }
+        public void NumPalindrom()
+        {
+            int ASN = 1021;
+            int ntem = ASN, R;
+            int DSN = 0;
+            while (ASN != 0)
+            {
+                R = ASN % 10;
+                DSN = DSN * 10 + R;
+                ASN = ASN / 10;
+            }
+            
+            if (ntem == DSN)
+            {
+                Console.WriteLine("This a Palindrom Number"+ntem);
+            }
+            else
+            {
+                Console.WriteLine("This is Not Palindrom Num");
+            }
+        }
     }
 }

@@ -7,7 +7,8 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Day21 obj = new Day21();
-            obj.IsPlaindrom();
+            //  obj.IsPlaindrom();
+            obj.NumPalindrom();
             Console.WriteLine("Hello World!");
         }
     }
