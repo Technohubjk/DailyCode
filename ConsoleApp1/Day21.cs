@@ -117,5 +117,23 @@ namespace ConsoleApp1
             }
             Console.WriteLine("Not Founded the target Value");
         }
+
+        public void FindVowel()
+        {
+            string str = "SHIV";
+            string V = "aeiouAEIOU";
+            string R = " ";
+            int count = 0;
+            foreach(var item in str)
+            {
+                if (V.Contains(item))
+                {
+                    R = R + item;
+                    count++;
+                }
+            }
+            Console.WriteLine(R);
+            Console.WriteLine(count);
+        }
     }
 }
