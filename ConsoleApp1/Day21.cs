@@ -116,6 +116,7 @@ namespace ConsoleApp1
                
             }
             Console.WriteLine("Not Founded the target Value");
+
         }
 
         public void FindVowel()
@@ -134,6 +135,7 @@ namespace ConsoleApp1
             }
             Console.WriteLine(R);
             Console.WriteLine(count);
+
         }
     }
 }
