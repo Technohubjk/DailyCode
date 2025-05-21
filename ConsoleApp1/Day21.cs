@@ -137,5 +137,29 @@ namespace ConsoleApp1
             Console.WriteLine(count);
 
         }
+        public void SwappingTwoNum()
+        {
+            int a, b;
+            a = 10;
+            b = 30;
+            a = a + b;
+            b = a - b;
+            a = a - b;
+            Console.WriteLine(a);
+            Console.WriteLine(b);
+        }
+        public void Fibonic()
+        {
+            int a = 0;
+            int b = 1;
+            int c;
+            for(int i = 0; i <= 6; i++)
+            {
+                c = a + b;
+                a = b;
+                b = c;
+                Console.WriteLine(c+" ");
+            }
+        }
     }
 }

@@ -8,7 +8,7 @@ namespace ConsoleApp1
         {
             Day21 obj = new Day21();
             //  obj.IsPlaindrom();
-            obj.FindVowel();
+            obj.Fibonic();
             Console.WriteLine("Hello World!");
         }
     }
