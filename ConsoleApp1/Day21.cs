@@ -89,5 +89,33 @@ namespace ConsoleApp1
             }
             Console.WriteLine(arr);
         }
+
+        public void BinarSearch()
+        {
+            int[] arr = { 2, 1, 0, 4, 2, 9 };
+            int target = 4;
+            int left = 0;
+            int Right = arr.Length - 1;
+            Array.Sort(arr);
+            while (left <= Right)
+            {
+                int mid = left + (Right - left) / 2;
+                if (arr[mid] ==target)
+                {
+                    Console.WriteLine("Goted..."+arr);
+                    return;
+                }
+                if (arr[mid] < target)
+                {
+                    left = mid + 1;
+                }
+                if (arr[mid] > target)
+                {
+                    Right = mid - 1;
+                }
+               
+            }
+            Console.WriteLine("Not Founded");
+        }
     }
 }
