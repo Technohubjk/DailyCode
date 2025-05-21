@@ -51,5 +51,43 @@ namespace ConsoleApp1
                 Console.WriteLine("This is Not Palindrom Num");
             }
         }
+       public bool IsPrimeNum()
+        {
+            int n = 22;
+            if (n < 2)
+            {
+                return false;
+            }
+            for(int i = 2; i * i <= n; i++)
+            {
+                if (n % i == 0)
+                {
+                    Console.WriteLine("This is not Prime Num");
+                    return false;
+                    
+                }
+               
+            }
+            Console.WriteLine("Yes");
+            return true;
+           
+        }
+        public void ShiftZero()
+        {
+            int[] arr = { 1, 3, 2, 0, 5, 0, 4, 0, 8, 0, 5, 5 };
+            int index = 0;
+            for(int i = 0; i < arr.Length; i++)
+            {
+                if (arr[i] != 0)
+                {
+                    arr[index++] = arr[i];
+                }
+            }
+            while (index < arr.Length)
+            {
+                arr[index++] = 0;
+            }
+            Console.WriteLine(arr);
+        }
     }
 }
