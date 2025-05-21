@@ -115,7 +115,7 @@ namespace ConsoleApp1
                 }
                
             }
-            Console.WriteLine("Not Founded the target");
+            Console.WriteLine("Not Founded the target Value");
         }
     }
 }
