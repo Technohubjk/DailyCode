@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DailyCodePractice;
+using System;
 
 namespace ConsoleApp1
 {
@@ -7,8 +8,11 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Day21 obj = new Day21();
+            Day22 o = new Day22();
+
             //  obj.IsPlaindrom();
-            obj.Fibonic();
+            // obj.FibonicMonu();
+            o.LeftUpper();
             Console.WriteLine("Hello World!");
         }
     }

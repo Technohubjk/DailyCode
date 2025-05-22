@@ -161,5 +161,37 @@ namespace ConsoleApp1
                 Console.WriteLine(c+" ");
             }
         }
+
+
+        public void SwapNumw()
+        {
+            int a, b;
+            a = 10;
+            b = 12;
+            a = a + b;
+            b = a - b;
+            a = a - b;
+            Console.WriteLine($"This is a :{a}");
+            Console.WriteLine($"This is b :{b}");
+
+        }
+        public void FibonicMonu()
+        {
+            int a = 0, b = 1, c;
+
+            Console.Write(a + " " + b + " "); // Print first two numbers
+
+            for (int i = 2; i < 10; i++) // Loop from 2 to 6 to print 7 terms
+            {
+                c = a + b;
+                Console.Write(c + " ");
+                a = b;
+                b = c;
+            }
+
+            Console.WriteLine(); // Move to the next line
+        }
+
+
     }
 }
