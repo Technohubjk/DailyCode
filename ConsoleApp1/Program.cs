@@ -12,7 +12,7 @@ namespace ConsoleApp1
 
             //  obj.IsPlaindrom();
             // obj.FibonicMonu();
-            o.LeftUpper();
+            o.Yes();
             Console.WriteLine("Hello World!");
         }
     }

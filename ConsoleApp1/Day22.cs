@@ -317,6 +317,33 @@ namespace DailyCodePractice
                 Console.WriteLine();
             }
         }
+        public void Fib()
+        {
+            int n = 12;
+            int a = 0;
+            int b = 1;
+            for(int i = 0; i < n; i++)
+            {
+                Console.WriteLine(a+" ");
+                int temp = a + b;
+                a = b;
+                b = temp;
+            }
+        }
+
+        public void Yes()
+        {
+            int n = 8;
+            int a = 0;
+            int b = 1;
+            for(int i = 0; i < n; i++)
+            {
+                Console.WriteLine(a+" ");
+                int c = a + b;
+                a = b;
+                b = c;
+            }
+        }
 
     }
 }
