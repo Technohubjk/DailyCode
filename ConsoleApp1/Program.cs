@@ -9,10 +9,12 @@ namespace ConsoleApp1
         {
             Day21 obj = new Day21();
             Day22 o = new Day22();
+            Day23 con = new Day23();
 
             //  obj.IsPlaindrom();
             // obj.FibonicMonu();
-            o.Yes();
+            // o.Yes();
+            con.SubArray();
             Console.WriteLine("Hello World!");
         }
     }
